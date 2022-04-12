@@ -13,7 +13,7 @@
           <h1>
             <a href="../">
               <!-- 記載番号：1 -->
-              <span class="header__logo-title">Tech Taro</span>
+              <span class="header__logo-title">Manome Yuya</span>
               <span class="header__logo-sub">Portfolio</span>
             </a>
           </h1>
@@ -33,19 +33,19 @@
       <section class="p-work-firstview">
         <div class="section-inner">
           <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
-          <h2>HOBCHA（趣味共有SNS）</h2>
+          <h2>BetterReading37532（動機記録アプリ）</h2>
           <div class="p-work-firstview__pict obj-fit-img">
             <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
-            <img src="../images/work/02/pict-work02-firstview_pc.jpg" class="show-pc">
+            <img src="../images/02/スクリーンショット 2022-04-12 1.28.14.png" class="show-pc">
             <!-- images/02に配置した、オリジナルアプリの画像（SP版）のパスを記載する -->
-            <img src="../images/work/02/pict-work02-firstview_sp.jpg" class="show-sp">
+            <img src="../images/02/スクリーンショット 2022-04-12 1.28.14.png" class="show-sp">
           </div>
           <div class="p-work-firstview__text-area">
             <h3 class="p-work-firstview__text-titile">開発環境</h3>
             <!-- 記載番号：3 -->
             <p class="p-work-firstview__text">Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello</p>
             <!-- 記載番号：4 -->
-            <p class="p-work-firstview__text-link"><a href="__URL__" target="_blank">https://github.com/XXXXXX/xxxxxx</a></p>
+            <p class="p-work-firstview__text-link"><a href="__URL__" target="_blank">https://github.com/ManomeYuya/better-reading-37532</a></p>
           </div>
         </div>
       </section>
@@ -58,12 +58,12 @@
                 <tr>
                   <th>制作時間</th>
                   <!-- 記載番号：5 -->
-                  <td>70時間</td>
+                  <td>150時間</td>
                 </tr>
                 <tr>
                   <th>URL</th>
                   <!-- 記載番号：6 -->
-                  <td><a href="__URL__" target="_blank">http://hoge.heroku.com</a></td>
+                  <td><a href="__URL__" target="_blank">https://immense-harbor-06341.herokuapp.com/</a></td>
                 </tr>
                 <tr>
                   <th>ID</th>
@@ -79,17 +79,29 @@
             </li>
             <li class="p-work-summary__item">
               <h3>動作テスト</h3>
-              <h4>テスト用アカウント</h4>
+              <h4>テスト用アカウント①</h4>
               <table class="p-work-summary__item-table">
                 <tr>
                   <th>mail</th>
                   <!-- 記載番号：9 -->
-                  <td>test_user@hoge.com</td>
+                  <td>test@com</td>
                 </tr>
                 <tr>
                   <th>PASS</th>
                   <!-- 記載番号：10 -->
-                  <td>testuser1234</td>
+                  <td>test11</td>
+                 
+              <table class="p-work-summary__item-table">
+                <h4>テスト用アカウント②</h4>
+                <tr>
+                  <th>mail</th>
+                  <!-- 記載番号：9 -->
+                  <td>aaa@com</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：10 -->
+                  <td>aaa111</td>
                 </tr>
               </table>
             </li>
@@ -105,18 +117,19 @@
             <!-- 記載番号：11 -->
             <div class="p-work-outline__text">
               <p>
-                オリジナルアプリケーションとして、自身の趣味を共有をするSNSを開発しました。
-                <br>
-                主な機能は、ユーザー登録機能、および趣味のジャンルごとのタイムライン機能、タグ付け機能です。
+                オリジナルアプリケーションとして、読書好きのための読書をよりよくするためのアプリを開発しました。
               </p>
               <p>
-                トップページにアクセスすると、様々な趣味のジャンルについて表示されています。それをクリックすると、そのジャンルにおけるタイムライン機能を閲覧することができます。
+                主な機能は、ユーザー登録機能、動機の新規投稿機能、動機の投稿一覧機能、投稿に対する詳細表示機能、コメント機能などです。
               </p>
               <p>
-                ユーザー登録をすると、それらのタイムラインに自身の投稿をすることができます。画像を添付することや、YouTubeのリンクを埋め込むことができます。YouTubeの動画については、タイムライン上で再生することができます。
+                ユーザー登録をすると、投稿一覧ページに遷移し、New Motivationから新規投稿することができます。
               </p>
               <p>
-                また、投稿をする際はタグ付け（ハッシュタグ）をすることができ、ハッシュタグをクリックすると同一のハッシュタグを持つ投稿のみを閲覧することができます。
+                また投稿された動機の画像をクリックすると、投稿詳細ページに遷移し、投稿したユーザーであれば、投稿の編集と削除をすることができます。
+              </p>
+              <p>
+                またログインすることで、詳細ページからコメントを投稿することができます。コメントは詳細ページから投稿順に表示されます。
               </p>
             </div>
           </div>
@@ -130,13 +143,13 @@
               <!-- 記載番号：12 -->
               <div class="p-work-about__item-block">
                 <p>
-                  普段SNSを利用している中で、効率的に情報に接することができていないと課題に感じることがありました。
+                  私は読書が趣味ですが、私自身が本を読むにあたって、何かしらの動機やきっかけがあり購入したものの、積読になると読む頃にはなぜ読もうと思ったのか忘れてしまうことが多かったからです。
                 </p>
                 <p>
-                  私はサッカー観戦が趣味で、特にイングランドのプレミアリーグの情報をSNSで収集します。しかし、サッカーのジャンルは広く、フォローをしている他のユーザーは他のリーグの情報や、サッカーとは関係のない情報を共有するためそれらの情報がノイズに感じることがありました。またハッシュタグのみでジャンルを管理すると、必ずしも全員がハッシュタグをつけるわけではないので、情報の網羅性に欠けると感じています。
+                  読書をする際には、目的意識を持つことが重要だと思っています。動機やきっかけがあることで、読んだ後により身になると思うため、動機を忘れないように記録しておくものが必要だと思いました。
                 </p>
                 <p>
-                  そこで、5ちゃんねるなどの掲示板の仕組みを参考に、テーマがカテゴライズされたSNSを作成したいと考えました。
+                  そこで、購入したタイミングで本を読もうと思った動機やきっかけをその場で投稿し読むタイミングで見返すことができるアプリを考えました。
                 </p>
               </div>
             </li>
@@ -145,18 +158,19 @@
               <div class="p-work-about__item-block p-work-about__item-block-2column">
                 <div class="p-work-about__item-block-pict obj-fit-img">
                   <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
-                  <img src="../images/work/02/pict-work02-about-dammy.jpg">
+                  <img src="../images/02/スクリーンショット 2022-04-12 1.05.05.png">
                 </div>
                 <!-- 記載番号：13 -->
                 <div class="p-work-about__item-block-text">
                   <p>
-                    1つ目が本アプリケーションのポイントである趣味ジャンルのカテゴライズ機能です。カテゴリー管理にはancestryというRuby gemを用い、複数改装で管理できるようにしました。また、カテゴリーを各々が作成できる機能を設けました。しかし、これにはある課題が生じ、現在は機能を取り外しています。詳細は後述します。
+                    1つ目は投稿機能にて、動機をより深ぼれる投稿欄を設けたことです。「誰の紹介ですか?」「何といっていましたか?」という外発的動機と「本を見た時何を思いましたか？」「この本をなぜ読むのですか？」という内発的動機を問いかける投稿欄があります。
+                    <br>
+                    動機をより深ぼれることで、動機を感じ購入した時の心境をより思い出させることで、より目的意識が高まると考えています。
                   </p>
                   <p>
-                    2つ目がタイムラインのUIです。スマートフォンブラウザでの利用を考え、「スマホで見やすい」「スマホでタップしやすい」をテーマにマークアップを行い実装しました。
-                  </p>
-                  <p>
-                    いずれも、知人20名ほどに実際に利用してもらい、ユーザーヒアリングを行いながら改善を行っています。
+                    2つ目がコメント機能です。詳細ページにてコメントの投稿、閲覧をすることができます。
+                    <br>
+                    ユーザー同士の関わり合いが増えることで、より読書へのモチベーションが上がることも予想されます。コメントに対する返信機能は今後実装したいと考えています。
                   </p>
                 </div>
               </div>
@@ -166,20 +180,20 @@
               <div class="p-work-about__item-block p-work-about__item-block-2column">
                 <div class="p-work-about__item-block-pict obj-fit-img">
                   <!-- images/02に配置した、記載内容を表す画像のパスを記載する -->
-                  <img src="../images/work/02/pict-work02-about-dammy.jpg">
+                  <img src="../images/02/スクリーンショット 2022-04-12 1.03.43.png">
                 </div>
                 <!-- 記載番号：14 -->
                 <div class="p-work-about__item-block-text">
+                  
                   <p>
-                    ActiveAdminなどを用いて、管理機能を設けたいと考えています。理由は2つあります。
-                  </p>
-                  <p>
-                    1つ目が、SNSというサービスの特性上、不適切な投稿を削除できるようにしておく必要があるためです。
-                  </p>
-                  <p>
-                    2つ目が、趣味ジャンルの修正追加を容易に行うためです。前述のとおり、ユーザーにカテゴリーを作成する機能を設けていましたが削除をしました。これは、ユーザーが好き勝手にカテゴリーを登録できてしまうと、重複の可能性があるためです。
+                    1つ目が、管理者権限を付与したいと考えています。理由はサービスの安全性を考えた時に、不適切な投稿を削除したり、ユーザーを制限する必要があると思うからです。
                     <br>
-                    そこで、ユーザーに要望フォーム形式で修正追加したいカテゴリーを投稿をしてもらい、運営側で追加する仕組みを考えています。その運用を実現するために管理機能が必要であると考えています。
+                    adminやPunditなどを用いて、一定のユーザーの権限を制限を加えたいと思っています。利用者の視点だけでなく運営者の視点から考えることで、より安全に使用できるアプリになると考えています。
+                  </p>
+                  <p>
+                    2つ目が、ユーザーのフォロー機能を加えたいと考えています。アプリの意義を考えればフォロー機能がなくても成り立ちますが、現状ユーザー同士の関わり合いが少ないと感じています。
+                    <br>
+                    フォロー機能を用いようとすると、中間テーブルが必要となり、新たに設計からやり直す必要がありますが、ユーザー同士の関わりがあることで、特定の投稿のみ閲覧できたりするため、利便性は高くなると考えています。
                   </p>
                 </div>
               </div>
@@ -197,7 +211,7 @@
               <li class="p-work-others__item">
                 <div class="p-work-others__item-pict">
                   <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
-                  <a href="01.html" style="background-image:url('../images/work/01/pict-work01-firstview_pc.jpg');"></a>
+                  <a href="01.html" style="background-image:url('../images/スクリーンショット 2022-04-09 11.31.42.png');"></a>
                 </div>
                 <div class="p-work-others__item-text-block">
                   <!-- 記載番号：15 -->
@@ -212,27 +226,28 @@
               <li class="p-work-others__item">
                 <div class="p-work-others__item-pict">
                   <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
-                  <a href="02.html" style="background-image:url('../images/work/02/pict-work02-firstview_pc.jpg');"></a>
+                   <a href="02.html" style="background-image:url('../images/02/スクリーンショット 2022-04-12 1.28.14.png"></a>
                 </div>
-                <div class="p-work-others__item-text-block">
+                <div class="p-work-others__item-text-block"> 
                   <!-- 記載番号：17 -->
-                  <h3>HOBCHA（趣味共有SNS）</h3>
+                   <h3>BetterReading37532（動機記録アプリ）</h3>
                   <!-- 記載番号：18 -->
-                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello</p>
+                   <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code / Trello</p>
                 </div>
                 <div class="p-work-others__item-btn-block">
                   <a href="02.html" class="button">More</a>
-                </div>
-              </li>
+                </div> 
+              </li> 
             </ul>
           </div>
         </div>
       </section>
     </main>
     <!-- 記載番号：1 -->
-    <footer id="footer" class="footer"><p>&copy; Taro Tech.</p></footer>
+    <footer id="footer" class="footer"><p>&copy; Yuya Manome.</p></footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
     <script type="text/javascript" src="../js/ofi.min.js"></script>
     <script type="text/javascript" src="../js/script.js"></script>
   </body>
 </html>
+
